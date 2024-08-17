@@ -1,5 +1,5 @@
 # MultiVendorBack
-multi-vendor-ecommerce/
+<!-- multi-vendor-ecommerce/
 ├── config/
 │   └── db.js
 ├── controllers/
@@ -25,4 +25,4 @@ multi-vendor-ecommerce/
 ├── .env
 ├── app.js
 ├── server.js
-└── package.json
+└── package.json -->
