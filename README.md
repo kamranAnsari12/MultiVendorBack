@@ -27,3 +27,5 @@
 # ├── server.js
 # └── package.json
 BackServerMultiVendor
+
+git ignore file link - https://www.toptal.com/developers/gitignore
