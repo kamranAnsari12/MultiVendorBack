@@ -1,5 +1,6 @@
 This is the Basic Multi-vendor BAckend Project Reated on Node js And MongoDb , 
-you Can Easily deploy it and used this as fully backend 
+you Can Easily deploy it and used this as fully backend ,
+Only Thing you need to connect is MongoDb database URI and Jwt token(which can be manually created) and Port Number
 
 contact Id  - kamran.ansari1999@gmail.com 
 
