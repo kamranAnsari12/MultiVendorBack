@@ -1,3 +1,13 @@
+This is the Basic Multi-vendor BAckend Project Reated on Node js And MongoDb , 
+you Can Easily deploy it and used this as fully backend 
+
+contact Id  - kamran.ansari1999@gmail.com 
+
+Project Structure in fully grown Size !!!!!!! Below  
+
+
+
+
 # MultiVendorBack
 # multi-vendor-ecommerce/
 # ├── config/
