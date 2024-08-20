@@ -3,7 +3,8 @@ const User = require('../models/User');
 
 exports.protect = async (req, res, next) => {
     let token;
-    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
+    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) 
+        {
         token = req.headers.authorization.split(' ')[1];
     }
 
@@ -19,3 +20,13 @@ exports.protect = async (req, res, next) => {
         return res.status(401).json({ success: false, error: 'Not authorized' });
     }
 };
+
+// middlewares/authMiddleware.js
+
+exports.vendorAuth = async (req, res, next) => {
+    if (req.user.role !== 'vendor') {
+        return res.status(403).json({ message: 'Access denied. Vendors only.' });
+    }
+    next();
+};
+
