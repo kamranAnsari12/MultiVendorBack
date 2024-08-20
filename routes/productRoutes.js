@@ -4,6 +4,6 @@ const { protect } = require('../middlewares/authMiddleware.js');
 const { vendorAuth } = require('../middlewares/authMiddleware.js');
 const router = express.Router();
 
-router.post('/',vendorAuth, protect, createProduct);
+router.post('/', protect,vendorAuth, createProduct);
 
 module.exports = router;
